@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Pages.MainPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="XML Processor" FontSize="24" HorizontalOptions="Center" />
+            <Entry x:Name="KeywordEntry" Placeholder="Enter keyword to search" />
+
+            <Button Text="Load File" Clicked="OnLoadFileClicked" />
+            <Picker x:Name="AnalyzerPicker" Title="Select Analysis Method">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>SAX</x:String>
+                        <x:String>DOM</x:String>
+                        <x:String>LINQ</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
+            <Button Text="Analyze" Clicked="OnAnalyzeClicked" />
+            <Button Text="Transform to HTML" Clicked="OnTransformClicked" />
+            <Button Text="Clear" Clicked="OnClearClicked" />
+
+            <Button Text="Exit" Clicked="OnExitClicked" />
+
+            <ScrollView>
+                <Label x:Name="OutputLabel" Text="" FontSize="14" TextColor="Black" />
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

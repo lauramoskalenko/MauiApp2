@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Cadres>
+	<Scientist Name="Ivanov I.I." Faculty="Physics" Department="Quantum Mechanics" Degree="PhD" Rank="Professor" RankDate="2020-05-12">
+		<Publications>
+			<Publication Title="Quantum Entanglement" Year="2019" />
+			<Publication Title="String Theory" Year="2021" />
+		</Publications>
+	</Scientist>
+	<Scientist Name="Petrov P.P." Faculty="Chemistry" Department="Organic Chemistry" Degree="PhD" Rank="Associate Professor" RankDate="2018-09-23">
+		<Publications>
+			<Publication Title="Polymers in Chemistry" Year="2017" />
+		</Publications>
+	</Scientist>
+	<Scientist Name="Sidorova A.A." Faculty="Mathematics" Department="Algebra" Degree="PhD" Rank="Senior Researcher" RankDate="2022-01-14">
+		<Publications>
+			<Publication Title="Abstract Algebra Principles" Year="2020" />
+			<Publication Title="Linear Algebra Applications" Year="2023" />
+		</Publications>
+	</Scientist>
+	<Scientist Name="Kozlov V.V." Faculty="Biology" Department="Genetics" Degree="PhD" Rank="Professor" RankDate="2015-03-12">
+		<Publications>
+			<Publication Title="Genetic Algorithms" Year="2014" />
+			<Publication Title="CRISPR in Practice" Year="2018" />
+		</Publications>
+	</Scientist>
+</Cadres>
